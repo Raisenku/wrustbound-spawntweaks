@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/canClimbAnywhere",
+    "value": true,
+    "file": "game:entities/lore/shiver.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/climbTouchDistance",
+    "value": 0.1,
+    "file": "game:entities/lore/shiver.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rotateModelOnClimb",
+    "value": true,
+    "file": "game:entities/lore/shiver.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/behaviors/4",
+    "file": "game:entities/lore/shiver.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9",
+    "file": "game:entities/lore/shiver.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.03,
+    "file": "game:entities/lore/shiver.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "modid": "wrustbound-spawntweaks",
+  "name": "Wilderlands Rustbound - Spawn Tweaks",
+  "authors": [
+    "Raisenku"
+  ],
+  "description": "An add-on for Wilderlands Rustbound which changes / fixes spawn conditions of Wilderlands Rustbound monsters",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "version": "1.0.0",
+  "dependencies": { "survival": "*" }
+}

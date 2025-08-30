@@ -1,0 +1,21 @@
+[
+  {
+    "op": "remove",
+    "path": "/client/behaviors/4",
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9",
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.01,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  }
+]

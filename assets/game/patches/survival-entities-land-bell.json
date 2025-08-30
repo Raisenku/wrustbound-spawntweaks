@@ -1,0 +1,58 @@
+[
+  {
+    "op": "replace",
+    "path": "/drops/0/code",
+    "value": "gear-temporal",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/0/quantity/avg",
+    "value": 0.6,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/0/quantity/var",
+    "value": 0,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/3/quantity/avg",
+    "value": 0.6,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnMobs/0",
+    "value": "wrustbound:rustborn-tier3",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnMobs/1",
+    "value": "wrustbound:rustborn-tier4",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnMobs/2",
+    "value": "wrustbound:rustborn-tier6",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnMobs/3",
+    "value": "wrustbound:rustborn-tier8",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  }
+]

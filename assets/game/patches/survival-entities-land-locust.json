@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/aitasks/2/movespeed",
+    "value": 0.028,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/aitasks/2/seekingRange",
+    "value": 23,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  }
+]

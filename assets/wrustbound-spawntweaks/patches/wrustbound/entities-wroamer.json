@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "file": "wrustbound:entities/land/rust/wroamer.json",
+    "path": "/server/spawnconditions/runtime/lightLevelType",
+    "value": "OnlyBlockLight",
+    "side": "Server",
+    "dependsOn": [ { "modid": "wrustbound" } ]
+  }
+]
