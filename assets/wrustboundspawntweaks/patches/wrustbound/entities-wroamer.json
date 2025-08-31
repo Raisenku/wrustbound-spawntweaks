@@ -6,5 +6,29 @@
     "value": "OnlyBlockLight",
     "side": "Server",
     "dependsOn": [ { "modid": "wrustbound" } ]
+  },
+  {
+    "op": "add",
+    "file": "wrustbound:entities/land/rust/wroamer.json",
+    "path": "/attributes",
+    "value": { "spawnCloserDuringLowStability": true },
+    "side": "Server",
+    "dependsOn": [ { "modid": "wrustbound" } ]
+  },
+  {
+    "op": "replace",
+    "file": "wrustbound:entities/land/rust/wroamer.json",
+    "path": "/server/spawnconditions/runtime/companions",
+    "value": [ "wrustbound:wgolem-normal", "wrustbound:wgolem-normal" ],
+    "side": "Server",
+    "dependsOn": [ { "modid": "wrustbound" } ]
+  },
+  {
+    "op": "add",
+    "file": "wrustbound:entities/land/rust/wroamer.json",
+    "path": "/server/spawnconditions/runtime/herdSize",
+    "value": { "dist": "verynarrowgaussian", "avg": 3, "var": 0 },
+    "side": "Server",
+    "dependsOn": [ { "modid": "wrustbound" } ]
   }
 ]

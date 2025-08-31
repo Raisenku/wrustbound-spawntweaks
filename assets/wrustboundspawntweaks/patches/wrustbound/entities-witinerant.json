@@ -6,5 +6,13 @@
     "value": "OnlyBlockLight",
     "side": "Server",
     "dependsOn": [ { "modid": "wrustbound" } ]
+  },
+  {
+    "op": "add",
+    "file": "wrustbound:entities/land/rust/witinerant.json",
+    "path": "/attributes",
+    "value": { "spawnCloserDuringLowStability": true },
+    "side": "Server",
+    "dependsOn": [ { "modid": "wrustbound" } ]
   }
 ]
