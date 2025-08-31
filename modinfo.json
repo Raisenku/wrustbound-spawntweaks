@@ -8,6 +8,6 @@
   "description": "An add-on for Wilderlands Rustbound which changes / fixes spawn conditions of Wilderlands Rustbound monsters",
   "RequiredOnClient": true,
   "RequiredOnServer": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": { "survival": "*" }
 }
